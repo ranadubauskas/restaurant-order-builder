@@ -1,0 +1,112 @@
+#wrapper {
+  width: 400px;
+  margin: auto;
+}
+
+#nav {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: navy;
+  margin: -10px;
+}
+h1{
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+#Cart{
+  text-align: center;
+  display: flex;
+  margin: -10px;
+  justify-content: space-around;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding: 30px 0px;
+  color: white;
+  font-size: 2em;
+}
+#total{
+  text-align: center;
+  display: flex;
+  margin: -10px;
+  justify-content: space-around;
+  font-family: "Roboto";
+  font-weight: 700;
+  padding: 30px 0px;
+  color: white;
+  font-size: 2em;
+}
+
+.topping {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+}
+
+.order {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.order .topping {
+  margin: 10px;
+  padding: 8px;
+}
+
+.Bun🍞 {
+  background-color: goldenrod;
+  order: 1;
+}
+
+.bottom {
+  order: 6;
+}
+
+.Patty🍔 {
+  background-color: chocolate;
+  order: 5;
+}
+
+.Lettuce🍃 {
+  background-color: limegreen;
+  order: 3;
+}
+
+.Cheese🧀 {
+  background-color: gold;
+  order: 4;
+}
+
+.Tomato🍅 {
+  background-color: firebrick;
+  order: 2;
+}
+
+.Pickles🥒{
+  background-color: lightGreen;
+  order: 5;
+}
+
+#checkout {
+  margin-top: 20px;
+}
+
+.button {
+  width: 150px;
+  margin: auto;
+  padding: 10px;
+  font-size: 1.8em;
+  font-family: "Roboto";
+  font-weight: 900;
+  border-radius: 20px;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
